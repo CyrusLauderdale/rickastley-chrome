@@ -1,0 +1,23 @@
+{
+    "manifest_version":2,
+    "name":"rickAstleyBeLike",
+    "description":"rick roll custom background to google.com",
+    "version":"1.0",
+    "icons": {
+        "16": "icon16.png",
+        "48":"icon48.png",
+        "128": "icon128.png"
+    },
+    "page_action": {
+        "default_icon": {
+            "16": "icon16.png",
+            "48": "icon48.png",
+            "128": "icon128.png"
+        }
+    },
+    "content_scripts": [{
+        "matches": ["https://www.google.com/*"],
+        "css": ["main.css"]
+    }]
+
+}
