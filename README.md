@@ -1,2 +1,2 @@
 # chrome-extension
-first attempt at making a chrome extension, this makes rick astley your google.com background. Will eventually add music and a rare chances of opening a rick roll.
+An experimentation with the basics of chrome extensions, it changes the background on new tabs to rick astley and has a rare chance of redirecting you to the famous music video "Never Gonna Give You Up".
